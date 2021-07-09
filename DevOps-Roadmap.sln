@@ -13,6 +13,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmployeeApi", "BackEnd\Empl
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HR-UI-MVC", "FrontEnd\HR-UI-MVC\HR-UI-MVC.csproj", "{DAE6022F-B7BE-4820-ADB8-091ADABE5D92}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Deployments", "Deployments", "{9524CFFA-E1C7-4A6F-A1AA-32506CFE90C6}"
+EndProject
+Project("{151D2E53-A2C4-4D7D-83FE-D05416EBD58E}") = "HR-ArmTemplate", "HR-ArmTemplate\HR-ArmTemplate.deployproj", "{1433B38B-FA0B-4EB2-BBCD-E5DC967E1429}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,10 @@ Global
 		{DAE6022F-B7BE-4820-ADB8-091ADABE5D92}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DAE6022F-B7BE-4820-ADB8-091ADABE5D92}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DAE6022F-B7BE-4820-ADB8-091ADABE5D92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1433B38B-FA0B-4EB2-BBCD-E5DC967E1429}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1433B38B-FA0B-4EB2-BBCD-E5DC967E1429}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1433B38B-FA0B-4EB2-BBCD-E5DC967E1429}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1433B38B-FA0B-4EB2-BBCD-E5DC967E1429}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -34,6 +42,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{CF2DB9BA-A1B3-4E8B-AE42-87B7B6173736} = {41C98AFB-E6FC-4CF6-A334-166DAE0DC085}
 		{DAE6022F-B7BE-4820-ADB8-091ADABE5D92} = {D63B4A57-88AB-43D9-961D-CC3AA6560C8E}
+		{9524CFFA-E1C7-4A6F-A1AA-32506CFE90C6} = {5FA7DE74-5ACB-4ABC-B4C1-8470D563C305}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1749528E-EA58-449D-830B-8537E782ADC9}
